@@ -49,6 +49,7 @@ echo "}" >> /etc/docker/daemon.json
 #重载Docker，使配置生效
 systemctl daemon-reload 
 systemctl restart docker 
+EOF
 ```
 ## 给脚本授予执行权限
 
