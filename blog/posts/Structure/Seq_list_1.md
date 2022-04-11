@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 线性表|顺序表(图书管理系统) 
-subtitle: Linear Table | Sequence Table (Library Management System)
+subtitle: Linear list | Sequence Table (Library Management System)
 date: 2022-04-09
 author: Sanshi Yin
 useHeaderImage: true

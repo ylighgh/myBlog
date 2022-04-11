@@ -201,15 +201,23 @@ bool LinkInsert(&L,i,&e){
 
 #### 指定节点删除
 ```cpp
-bool DeleteNode(LNode *p){
-    if(p==NULL){
-        return false
+bool DeleteNode(LinkList L,ElemeType data){
+    LNode *posNodeFront = L;
+    LNode *posNode = L->next;
+    if(posNode == NULL){
+        return false;
+    }else{
+        while(posNode->data!=data){
+            posNodeFront = posNode;
+            posNode = posNodeFront->next;
+            if(posNode==NULL){
+                return false;
+            }
+        }
+        posNodeFront->next=posNode->next;
+        free(posNode);
+        return true;
     }
-    LNode *q = p->next; //令q指向*p的后继节点
-    p->data = p->next->data; //和后继节点交换数据
-    p->next = q->next; //将*q节点从链中断开
-    free(q); //释放存储空间
-    return true;
 }
 ```
 
