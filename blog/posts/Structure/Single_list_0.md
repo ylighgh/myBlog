@@ -5,7 +5,7 @@ subtitle: Basic operations of singly linked list
 date: 2022-04-11
 author: Sanshi Yin
 useHeaderImage: true
-headerImage: /img/in-post/2022-04-11/header-0.jpg
+headerImage: /img/in-post/2022-04-11/header-3.jpg
 permalinkPattern: /post/Structure/:year/:month/:day/:slug/
 tags:
 - Structure

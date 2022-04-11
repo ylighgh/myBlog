@@ -2,7 +2,7 @@
 layout: Post
 title: 线性表|单链表(图书管理系统) 
 subtitle: Linear list | single linked list (library management system)
-date: 2022-04-11
+date: 2022-04-12
 author: Sanshi Yin
 useHeaderImage: true
 headerImage: /img/in-post/2022-04-11/header-1.jpg
