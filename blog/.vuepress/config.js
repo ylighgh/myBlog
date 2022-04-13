@@ -2,7 +2,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   base:"/blog/",
-  title: "Sanshi Yin",
+  title: "yss",
   description: "Just for code.",
 
   head: [
@@ -46,7 +46,6 @@ module.exports = {
     repo: "ylighgh/ylighgh.github.io",
     docsDir: "blog",
     docsBranch: "master",
-
     hitokoto: "https://v1.hitokoto.cn?c=d&c=i", // enable hitokoto (一言) or not?
 
     // personal information
