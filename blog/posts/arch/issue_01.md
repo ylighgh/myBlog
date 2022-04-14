@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: Archlinux|exec无法正常调用
+title: Archlinux|execv无法正常调用
 subtitle: Execv failed (no such file or directoy)
 date: 2022-04-14
 author: Sanshi Yin
