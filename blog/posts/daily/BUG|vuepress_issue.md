@@ -1,11 +1,11 @@
 ---
 layout: Post
-title: BUG|vue项目部署到nginx服务器上找不到资源路径 
+title: BUG|vue项目部署到nginx无法加载静态资源
 subtitle: The resource path cannot be found when the vue project is deployed to the nginx server
 date: 2022-04-15
 author: Sanshi Yin
 useHeaderImage: true
-headerImage: /img/in-post/2022-04-15/header-3.jpg
+headerImage: /img/in-post/2022-04-15/header-4.jpg
 permalinkPattern: /post/daily/:year/:month/:day/:slug/
 tags:
 - 摸鱼
