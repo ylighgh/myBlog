@@ -57,7 +57,7 @@ Status InitStack(SqStack &S);   //初始化栈
 Status DestoryStack(SqStack S); //销毁栈
 Status Push(SqStack &S, int e); //入栈
 Status Pop(SqStack &S, int &e); //出栈
-void PrintStock(SqStack S);     //打印栈元素
+void PrintStack(SqStack S);     //打印栈元素
 void GetTop(SqStack S);         //取栈顶元素
 /************funciton*********/
 
@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
 
         //打印栈元素
         cout << "栈内元素为:" << endl;
-        PrintStock(S);
+        PrintStack(S);
 
         //获取栈顶元素
         GetTop(S);
@@ -91,7 +91,7 @@ int main(int argc, char const *argv[])
 
         //打印栈元素
         cout << "栈内剩余元素为:" << endl;
-        PrintStock(S);
+        PrintStack(S);
 
         //销毁栈
         DestoryStack(S);
@@ -160,7 +160,7 @@ Status Pop(SqStack &S, int &e)
 }
 
 //遍历栈元素
-void PrintStock(SqStack S)
+void PrintStack(SqStack S)
 {
     for (int *i = S.base; i < S.top; i++) //定义一个指针i去指向栈底指针,依次自下至上遍历所有元素
     {
