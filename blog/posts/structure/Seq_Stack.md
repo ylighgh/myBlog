@@ -24,11 +24,12 @@ Compiler Version:`gcc Version 11.2.0 (GCC)`
 
 - [Cpp标准输入输出流](https://www.runoob.com/cplusplus/cpp-basic-input-output.html)
 - [Cpp中的New和Delete](https://www.runoob.com/cplusplus/cpp-dynamic-memory.html)
-- *,++,--的优先级(同级,自右向左运算)
+- *,++,--的优先级(==同级,自右向左运算==)
 
 ::: tip 注意
 
 e = *--S.top;  ----栈顶指针减1,将栈顶元素赋值给e
+
 *S.top++ = e;  ----先将元素e压入栈顶,然后栈顶指针才加1
 :::
 
@@ -56,7 +57,7 @@ Status InitStack(SqStack &S);   //初始化栈
 Status DestoryStack(SqStack S); //销毁栈
 Status Push(SqStack &S, int e); //入栈
 Status Pop(SqStack &S, int &e); //出栈
-void PrintStock(SqStack S);     //遍历栈元素
+void PrintStock(SqStack S);     //打印栈元素
 void GetTop(SqStack S);         //取栈顶元素
 /************funciton*********/
 
