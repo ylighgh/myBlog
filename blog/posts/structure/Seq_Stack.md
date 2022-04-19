@@ -54,7 +54,7 @@ typedef struct stock
 
 /************funciton*********/
 Status InitStack(SqStack &S);   //初始化栈
-Status DestoryStack(SqStack S); //销毁栈
+Status DestoryStack(SqStack &S); //销毁栈
 Status Push(SqStack &S, int e); //入栈
 Status Pop(SqStack &S, int &e); //出栈
 void PrintStack(SqStack S);     //打印栈元素
@@ -123,7 +123,7 @@ Status InitStack(SqStack &S)
 }
 
 //销毁栈
-Status DestoryStack(SqStack S)
+Status DestoryStack(SqStack &S)
 {
     delete[] S.base; //释放栈顶指针内存
     S.top = S.base = NULL; //栈顶指针和栈底指针至为NULL
