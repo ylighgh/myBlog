@@ -47,6 +47,7 @@ upstream        git@github.com:ylighgh-01/ChiKeXing.git (push)
 ## 冲突问题
 
 在`push`
+Todo....
 
 ## 推送
 
@@ -55,7 +56,7 @@ upstream        git@github.com:ylighgh-01/ChiKeXing.git (push)
 
 ## 项目操作流程
 
-1. 每次开发时,进入到`main`分支,执行:`git pull upstream:main`(拉去远程主仓库最新版本的内容)
+1. 每次开发时,进入到`main`分支,执行:`git pull upstream main`(拉去远程主仓库最新版本的内容)
 
 2. 新建dev分支: `git switch -c dev`
 
