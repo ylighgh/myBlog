@@ -17,6 +17,8 @@ SSH密钥对包括两个文件：私钥文件（Private Key），公钥文件（
 
 执行命令：`ssh-keygen -N "" -f ~/.ssh/yss` 生成SSH密钥对
 
+生成带邮箱的密钥对:`ssh-keygen -N "" -f ~/.ssh/yl -C xxxx@xxx.com`
+
 执行完毕之后会生成两个文件：
 
 - 私钥文件： $HOME/.ssh/yss
