@@ -74,3 +74,12 @@ Hi ylighgh-01! You've successfully authenticated, but GitHub does not provide sh
 
 `git clone  git@one.github.com:happyCoding1024/FrontendLearningTool.git`
 
+## 本地化
+
+由于现在不是全局配置了，所以每个仓库都需要配置各自的用户名和邮箱来确定这个仓库是和哪个 GitHub 账号连接的。
+
+在项目文件夹中右键打开 GitBash，然后执行下面 的语句，设置账号和相应的项目关联：
+
+`git config user.name  xxx`
+
+`git config user.email  xxx@qq.com`
