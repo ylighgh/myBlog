@@ -5,7 +5,7 @@ subtitle:  Git|User Setting
 date: 2022-04-24
 author: Sanshi Yin
 useHeaderImage: true
-headerImage: /img/in-post/2022-04-24/header-0.jpg
+headerImage: /img/in-post/2022-04-24/header-1.jpg
 permalinkPattern: /post/git/:year/:month/:day/:slug/
 tags:
 - Git
