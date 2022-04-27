@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: ArchLinux|质
+title: ArchLinux|GRUB引导分区消失
 subtitle: BIOS can't find boot media solution
 date: 2022-04-26
 author: Sanshi Yin
