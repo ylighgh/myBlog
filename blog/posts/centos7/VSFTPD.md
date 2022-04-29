@@ -5,7 +5,7 @@ subtitle: vsftpd
 date: 2022-04-29
 author: Sanshi Yin
 useHeaderImage: true
-headerImage: /img/in-post/2022-04-29/header-.jpg
+headerImage: /img/in-post/2022-04-29/header-0.jpg
 permalinkPattern: /post/centos7/:year/:month/:day/:slug/
 tags:
 - CentOS
