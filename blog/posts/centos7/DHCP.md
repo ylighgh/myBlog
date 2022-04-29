@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: CentOS|DHCP 
-subtitle: DHCP
+subtitle: DHCP Service
 date: 2022-04-27
 author: Sanshi Yin
 useHeaderImage: true
