@@ -95,15 +95,17 @@ tags:
 
 ```bash
 #先给日志文件赋予 chattr 的 a 属性，保证日志的安全
-chattr +a var/log/alert.log
+chattr +a /var/log/alert.log
 
 cat <<EOF> /etc/logrotate.d/alter
 #创建 alter 轮替文件，把/var/log/alert.log 加入轮替
  /var/log/alert.log {
   weekly
   #每周轮替一次
-  rotate 6
-  #保留 6 个轮替日志
+  rotate 1
+  #保留 1 个轮替日志
+  create
+  dateext
   sharedscripts
   #以下命令只执行一次
   prerotate
@@ -114,13 +116,8 @@ cat <<EOF> /etc/logrotate.d/alter
   #脚本结束
   sharedscripts
   postrotate
-  #在日志轮替之后执行
-  /usr/bin/chattr +a /var/log/alert.log
- #日志轮替之后，重新加入 a 属性
-  endscript
-  sharedscripts
-  postrotate
   /bin/kill -HUP $(/bin/cat /var/run/syslogd.pid 2>/dev/null) &>/dev/null
+  /usr/bin/chattr +a /var/log/alert.log
   endscript
  #重启 rsyslog 服务，保证日志轮替正常
  }
